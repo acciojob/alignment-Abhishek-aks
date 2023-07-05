@@ -20,7 +20,7 @@ tr>td{
 	height:20px; /* can be applied to tr also */
 	border:1px solid black;
 }
-
+/* 
 .middle{
     margin: auto;
     width: 60%;
@@ -40,7 +40,7 @@ td{
     padding: 1px;
     border: 1px solid black;
 }
-
+ */
  .green{
     background-color: green;
 }
