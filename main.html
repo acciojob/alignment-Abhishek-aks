@@ -69,78 +69,92 @@
 		
 	</table> -->
 
-	<table><tbody>
+	<table class="table-1"><tbody>
 		<caption><b>HTML Assignment 3</b></caption>>
-		<tr>
+		<tr id ="t11">
 			<td class="left">left</td>
 			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
-		<tr>
+		<tr id ="t12">
 			<td class="left">left</td>
 			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
-		<tr>
+		<tr id ="t13">
 			<td class="left">left</td>
 			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
 	</tbody></table>
 	<br><br>
-	<table><tbody>
-		<tr class="second">
-			<td class="1A">1</td>
-			<td class="2A">2</td>
-			<td class="3A">3</td>
-			<td class="4A">4</td>
-			<td class="5A">5</td>
-			<td class="A6">6</td>
+	<table class="table-2"><tbody>
+		<tr class="tr-1row" id ="t21">
+			<td class="A1" colspan="6"></td>
+<!-- so no more 5 columns required, 6 colspace is taken by 1stcolumn -->
+<!-- 			<td class="A2"></td> -->
+<!-- 			<td class="A3"></td> -->
+<!-- 			<td class="A4"></td> -->
+<!-- 			<td class="A5"></td> -->
+<!-- 			<td class="A6"></td> -->
 		</tr>
-		<tr class="second">
-			<td class="1A"></td>
-			<td class="2A"></td>
-			<td class="3A"></td>
-			<td class="4A"></td>
-			<td class="5A"></td>
-			<td class="6A"></td>
+		<tr class="tr-2row" >
+			<td class="A1" rowspan="4"></td> 
+<!-- 2nd row ka 1st collumn. So A6 of all column commented -->
+			<td class="A2"></td>
+			<td class="A3"></td>
+			<td class="A4"></td>
+			<td class="A5"></td>
+			<td class="A6"></td>
 		</tr>
-		<tr class="second">
-			<td class="1A"></td>
-			<td class="2A"></td>
-			<td class="3A"></td>
-			<td class="4A"></td>
-			<td class="5A"></td>
-			<td class="6A"></td>
+		<tr class="tr-3row">
+			<td class="A1"></td>
+			<td class="A2" rowspan="2" colspan="3"></td>
+<!-- 1 cell spread to many so 5 cell need to be commented now 
+and they are tr-3 me(td 4&5) also tr-4 me(td 3,4,5) -->
+			<td class="A3"></td>
+<!-- 			<td class="A4"></td> -->
+<!-- 			<td class="A5"></td> -->
+<!-- 			<td class="A6"></td> -->
 		</tr>
-		<tr class="second">
-			<td class="1A"></td>
-			<td class="2A"></td>
-			<td class="3A"></td>
-			<td class="4A"></td>
-			<td class="5A"></td>
-			<td class="6A"></td>
+		<tr class="tr-4row">
+			<td class="A1"></td>
+			<td class="A2"></td>
+<!-- 			<td class="A3"></td>
+			<td class="A4"></td>
+			<td class="A5"></td> -->
+<!-- 			<td class="A6"></td> -->
 		</tr>
-		<tr class="second">
-			<td class="1A"></td>
-			<td class="2A"></td>
-			<td class="3A"></td>
-			<td class="4A"></td>
-			<td class="5A"></td>
-			<td class="6A"></td>
+		<tr class="tr-5row">
+			<td class="A1"></td>
+			<td class="A2"></td>
+			<td class="A3"></td>
+			<td class="A4"></td>
+			<td class="A5"></td>
+<!-- 			<td class="A6"></td> -->
 		</tr>
-		<tr class="second">
-			<td class="1A"></td>
-			<td class="2A"></td>
-			<td class="3A"></td>
-			<td class="4A"></td>
-			<td class="5A"></td>
-			<td class="6A"></td>
+		<tr class="tr-6row">
+			<td class="A1" colspan="6"></td>
+<!-- 			<td class="A2"></td>
+			<td class="A3"></td>
+			<td class="A4"></td>
+			<td class="A5"></td>
+			<td class="A6"></td> -->
 		</tr>
 	</tbody></table>
-	
-
-	
+	<br><br>
+<!-- ----------------------------------------------3rows & 1column so, (3tr and 1td)-----------------------------------------------  -->
+	<table class="table-3"><tbody>
+		<tr class="green">
+			<td ></td>
+		</tr>
+		<tr id="t-image">
+			<td><img src="https://images.unsplash.com/photo-1682687981603-ae874bf432f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="Image"></td>
+		</tr>
+		<tr>
+			<td class="blue"></td>
+		</tr>
+	</tbody></table>
     <script type="text/javascript" src="./script.js"></script>
 
 </body>
